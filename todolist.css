@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    background-color: cadetblue;
+    font-family: 'Courier New', Courier, sans-serif;
+    
+}
+
+#wrapper h2{display: flex;
+    justify-content: center;}
+
+
+#inputbox{display: flex;
+    justify-content: center;
+}    
+
+h2{letter-spacing: 1px;
+}
+
+input{
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 10px;
+    height: 2em;
+    width: 200px;
+    margin-right: 10px;
+    padding-left: 10px;   
+}
+
+input:active{
+    border: none;
+}
+
+#wrapper{
+    border: 2px solid black;
+    margin: 200px auto;
+    height: 500px;
+    width: 400px;
+    padding: 30px;
+    background-color: aliceblue;
+    border-radius: 10px; 
+    
+}
+
+#todolist{overflow: hidden;}
+
+ #read{
+    color: brown;
+    font-weight: 500;
+ border: 1px dashed black;
+ width: fit-content;
+ display: flex;
+    justify-content: center;
+    margin-left: 115px;
+    padding: 1px;
+    
+}
+
+button{
+    margin-top: 9px;
+    height: 2.5em;
+    width: 70px;
+    background-color: dodgerblue;
+    border-radius: 4px;
+    color: aliceblue;
+    padding: 3px;
+    border: none;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+button:hover{cursor: pointer;}
+
+#todolist{color: cadetblue;
+font-size: 28px;
+margin-top:10px;}
+
+#todolist p{
+    margin:10px 0px;
+}
+
+#todolist p:hover{
+    cursor:pointer;
+}
